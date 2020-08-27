@@ -1,9 +1,5 @@
 # newtons_method_variations.py
-"""Volume 1: Newton's Method.
-Caleb Dame
-Sec 2
-1/27/2020
-"""
+
 import sympy as sy
 import scipy as sp
 import numpy as np
@@ -102,7 +98,7 @@ def optimal_alpha(f, x0, Df, tol=1e-5, maxiter=15):
     plt.title("Convergeance for different Alpha values")
     plt.show()
 
-def prob6():
+def example2():
     """Consider the following Bioremediation system.
 
                               5xy − x(1 + y) = 0
